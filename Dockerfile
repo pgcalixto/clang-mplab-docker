@@ -1,4 +1,4 @@
-FROM mplab-xc32-plib:0.1
+FROM pgcalixto/mplab-xc32-plib:0.1-pic32mx795f512l
 LABEL version="0.1"
 MAINTAINER Pedro Calixto - pgcalixto
 
