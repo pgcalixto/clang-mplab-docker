@@ -43,5 +43,6 @@ RUN apt-get update && apt-get install -qq \
  && echo '/usr/local/lib' >> /etc/ld.so.conf.d/libc++.conf \
  && ldconfig \
  && apt-get purge --autoremove -qq \
+    cmake \
     subversion \
     wget
